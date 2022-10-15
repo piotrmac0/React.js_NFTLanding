@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "GT Walsheim Pro Regular";   /*Can be any text*/
+    src: local("GT Walsheim Pro Regular"),
+      url("/assets/GTWalsheimProRegular.ttf") format("truetype");
+  }
+
+.nav_container {
+    font-family: 'GT Walsheim Pro Regular';
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+        color:var(--black);
+    padding:1rem 4rem;
+padding:1rem 2rem;
+position:fixed;
+top:0;
+left:0;
+background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(14.8462px);
+   z-index:20;
+   border:0px solid transparent;
+.nav_menu {
+   display:flex;
+   flex-direction: row;
+   gap:0.5rem;
+   justify-content: space-between;
+    margin: 0 1rem;
+    position:relative;
+    .nav_item{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        .icon_button {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            color:black;
+            font-size:1.2rem;
+            background-color: var(--grey);
+            border-radius:50%;
+            margin:0.2rem;
+            padding:0.5rem;
+            transition:0.2s ease;
+            }
+            .icon_button:hover {
+                filter:brightness(1.4);
+                background-color: var(--black);
+                color: var(--white);
+                }
+    }
+
+    /* Dropdown menu */
+    .dropdown {
+        position: absolute;
+        top:150%;
+        width:300px;
+        z-index:10;
+        transform:translate(-45%);
+        background: rgba(11, 11, 11, 0.75);
+        backdrop-filter: blur(24.8462px);
+        border:1px solid rgba(255, 255, 255, 0.3);
+        border-radius:5px;
+        padding:1rem;
+        overflow:hidden;
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+
+        @media(max-width:1025px) {
+            top:150%;
+        }
+
+
+        .menu_item {
+            height:50px;
+            border-radius:10px;
+            display:flex;
+            align-items:center;
+            padding:0.3rem;
+            margin:0.5rem;
+            transition: 0.3s ease-in-out;
+            color:white;
+            text-decoration:none;
+        }
+        .menu_item:hover {
+            background-color:  rgba(255, 255, 255, 0.35);
+        }
+
+        .icon_button{
+            height:40px;
+            width:40px;
+            margin-right:1rem
+        }
+
+        .menu {
+            width:100%;
+        }
+
+        .dropdown_socials {
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap:0.9rem;
+            padding:1rem 1rem;
+            margin:0.5rem 0;
+    
+        
+            a {
+                color:var(--black);
+                font-size:1.2rem;
+                transition:0.2s ease;
+                background-color: var(--white);
+                padding:0.7rem;
+                border-radius:100%;
+                width:35px;
+                height:35px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            a:hover {
+                background-color: var(--accent2);
+                color:var(--black);
+            }
+        }
+    }
+
+}
+
+.nav_socials {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+    padding:0 1rem;
+    margin:0.5rem 0;
+
+    @media(max-width:1015px) {
+        display:none;
+    }
+
+    a {
+        color:var(--white);
+        font-size:1.2rem;
+        transition:0.2s ease;
+        background-color: var(--black);
+        padding:0.7rem;
+        border-radius:100%;
+        width:35px;
+        height:35px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a:hover {
+        background-color: var(--accent2);
+        color:var(--black);
+    }
+}
+
+}

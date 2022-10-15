@@ -1,0 +1,26 @@
+export default [
+    [
+        {
+            title:"Opensea",
+            link:"https://opensea.io"
+        }
+    ],
+    [
+        {
+            title:"Opensea1",
+            link:"https://opensea.io"
+        }
+    ],
+    [
+        {
+            title:"Opensea2",
+            link:"https://opensea.io"
+        }
+    ],
+    [
+        {
+            title:"Opensea3",
+            link:"https://opensea.io"
+        }
+    ]
+];

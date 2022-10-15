@@ -1,0 +1,102 @@
+.followed_carousel_container {
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--white);
+    color:var(--black);
+    text-align: center;
+    padding:0.5rem 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+    }
+
+
+    .carousel_item {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--accent);
+        border-radius: 27.3543px;
+        gap:10px;
+        width:90%;
+        @media(max-width:1025px) {
+            width:100%;
+        }
+    
+       .carousel_item_img {
+        width:100%;
+        text-align: center;
+       }
+
+        .carousel_item_creator {
+            margin-top:-7vh;
+            padding:1rem;
+            background-color: var(--accent);
+            border-radius:50px;
+        }
+
+        h3 {
+         
+            font-weight: 400;
+            font-size: 1.6rem;
+            color: car(--white);
+        }
+        h4 {
+
+            font-weight: 700;
+            font-size: 1rem;
+            background: linear-gradient(97.86deg, #FF8D8D -38.38%, #F7FC0E 71.88%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            p {
+                font-size:1rem;
+            }
+        }
+
+        a {  
+           
+
+            .btn1 {
+                padding: 0.8rem 1.4rem;
+                margin: 0.6rem 0 1.6rem 0;
+                gap: 20px;
+                background: var(--white);
+                border-radius:12px;
+                border:0.5px solid transparent;
+                color:var(--black);
+                font-weight: 500;
+                position: relative;
+                overflow: hidden;
+                z-index: 1;
+                transition: color 350ms ease-in-out;
+                &:after {
+                  content: '';
+                  position: absolute;
+                  display: block;
+                  top: 0;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 0;
+                  height: 100%;
+                  background:var(--black);
+              
+                  z-index: -1;
+                  transition: width 150ms ease-in-out;
+                }
+                &:hover {
+                  color: var(--white);
+                  &:after {
+                    width: 110%;
+                  }
+                }
+              }
+         }
+
+    }
+
+}

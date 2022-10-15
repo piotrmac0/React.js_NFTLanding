@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "GT Walsheim Pro Regular";   /*Can be any text*/
+    src: local("GT Walsheim Pro Regular"),
+      url("/assets/GTWalsheimProRegular.ttf") format("truetype");
+  }
+
+.navbar_container {
+    font-family: 'GT Walsheim Pro Regular';
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "navbar logo button";
+    width:100%;
+    background-color: var(--black);
+    color:var(--white);
+    padding:1rem 4rem;
+    border-bottom:1px solid var(--grey);
+
+    @media(max-width:1025px) {
+        grid-template-columns: 1fr 1fr;
+        padding:1.5rem 1.5rem;
+        grid-template-areas: 
+        "logo button"
+        "navbar navbar";
+        gap:1rem;
+    }
+
+
+        /* NAV */
+        .navbar_menu {
+            grid-area:navbar;
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            list-style-type: none;
+
+            @media(max-width:1025px) {
+                padding:1rem 0 0.2rem 0;
+                justify-content: space-around;
+            }
+
+                .navbar_menu_item {
+                    padding: 0 1rem;
+                    text-decoration: none;
+                         a {
+                            font-weight: 400;
+                            font-size: 1rem;
+                            color:var(--white);
+                            text-decoration: none;
+                            @media(max-width:1025px) {
+                            
+                            }
+                        }
+                }
+        }
+        
+
+        /*LOGO*/
+        .navbar_logo {
+            display: flex;
+            justify-content: center;
+            grid-area:logo;
+
+            .navbar_logo_item {
+                color:var(--white);
+                font-weight: 700;
+                font-size: 1.5rem;
+            }
+
+        }
+
+        /*LOGO */
+        .navbar_button{
+            display:flex;
+            justify-content: flex-end;
+            grid-area:button;
+
+            a.navbar_button_item {
+                padding: 0.6rem 1.2rem;
+                border-radius:30px;
+                background-color: var(--white);
+                color:var(--black);
+                 text-decoration: none;
+                 font-weight: 500;
+                 font-size: 1rem;
+                
+                 @media(max-width:1025px) {
+                    
+                }
+            }
+            
+        }
+
+
+    
+}
