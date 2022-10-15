@@ -5,10 +5,11 @@ See live version here: https://piotrmac0.github.io/React.js_NFTLanding/#
 Created with these dependencies installed by npm, from package.json:
 
 
-"dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
+"dependencies": { 
 
     "@testing-library/react": "^13.4.0",
+
+    "@testing-library/jest-dom": "^5.16.5",
 
     "@testing-library/user-event": "^13.5.0",
 
