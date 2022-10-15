@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+NFT Artist Landing page created in React.js with animations made in Framer-motion.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+See live version here: https://piotrmac0.github.io/React.js_NFTLanding/#
 
-## Available Scripts
+Created with these dependencies installed by npm, from package.json:
 
-In the project directory, you can run:
+"dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
 
-### `npm start`
+    "@testing-library/react": "^13.4.0",
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    "@testing-library/user-event": "^13.5.0",
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    "framer-motion": "^7.5.3",
 
-### `npm test`
+    "node-sass": "^7.0.3",
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    "react": "^18.2.0",
 
-### `npm run build`
+    "react-dom": "^18.2.0",
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    "react-icons": "^4.4.0",
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    "react-scripts": "5.0.1",
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    "react-slick": "^0.29.0",
 
-### `npm run eject`
+    "react-transition-group": "^4.4.5",
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    "slick-carousel": "^1.8.1",
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    "web-vitals": "^2.1.4"
+  },
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Enjoy and let's build!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
