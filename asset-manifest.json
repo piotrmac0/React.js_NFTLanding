@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React.js_NFTLanding/static/css/main.51e64cb6.css",
+    "main.js": "/React.js_NFTLanding/static/js/main.93d501fd.js",
+    "static/media/HeaderNFT1.png": "/React.js_NFTLanding/static/media/HeaderNFT1.dfc3882fa908e34602ff.png",
+    "static/media/NFT1.png": "/React.js_NFTLanding/static/media/NFT1.7de8899a0bdddcf4f495.png",
+    "static/media/NFT2.png": "/React.js_NFTLanding/static/media/NFT2.c48d64378c108963eb56.png",
+    "static/media/NFT5.png": "/React.js_NFTLanding/static/media/NFT5.9fa8bfc0a3a62bfadd64.png",
+    "static/media/NFT4.png": "/React.js_NFTLanding/static/media/NFT4.21820201d57f5c0facea.png",
+    "static/media/HeaderNFT2.jpg": "/React.js_NFTLanding/static/media/HeaderNFT2.c2d756c82ae19452673b.jpg",
+    "static/media/background2.png": "/React.js_NFTLanding/static/media/background2.74e5326c30bbe99f5959.png",
+    "static/media/NFT3.png": "/React.js_NFTLanding/static/media/NFT3.315a00c55eae606639df.png",
+    "static/media/background1.png": "/React.js_NFTLanding/static/media/background1.2f42144e6d1143e5c93d.png",
+    "static/media/HeaderNFT3.jpg": "/React.js_NFTLanding/static/media/HeaderNFT3.5076c898d22c38ad3d35.jpg",
+    "static/media/pau.png": "/React.js_NFTLanding/static/media/pau.c2ab725107756f203508.png",
+    "static/media/GTWalsheimProRegular.ttf": "/React.js_NFTLanding/static/media/GTWalsheimProRegular.7b2766a04ac0c4c89294.ttf",
+    "static/media/slick.svg": "/React.js_NFTLanding/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React.js_NFTLanding/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React.js_NFTLanding/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/React.js_NFTLanding/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/React.js_NFTLanding/index.html",
+    "main.51e64cb6.css.map": "/React.js_NFTLanding/static/css/main.51e64cb6.css.map",
+    "main.93d501fd.js.map": "/React.js_NFTLanding/static/js/main.93d501fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e64cb6.css",
+    "static/js/main.93d501fd.js"
+  ]
+}
